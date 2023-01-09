@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+ <head>
+   <title>Лабораторная работа №1</title>
+   <style>
+   body{
+    background: #1b2631; /* Меняется фон экрана, выбирается здесь */
+}
+
+p{
+color: #f1c40f;
+}
+h3{
+color:#f1c40f;
+}
+h2{
+color:#f1c40f;
+}
+a{
+color:#f1c40f;
+}
+.double-border-button {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  background-color:#1b2631;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+  
+}
+.double-border-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: .4s;
+}
+.double-border-button:hover:after {
+  border-color: #f1c40f;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; /* Меняется ширина страницы */
+  margin: 0 auto;
+  background:#1b2631; /* Меняется задний фон страницы */
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  height: 250px; /* Высота шапки */
+  background-color: #1b2631;; /* Фон шапки */
+  margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+  border-radius: 5px; /* Закругляются углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; /* Размещаем слева от текста */
+  margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
+  width: 676px; /* Ширина статьи */
+  padding: 10px; /* Отступ текста от краёв блока */
+  background: #1b2631; /* Фон статьи */
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+  clear: both;
+}
+
+   </style>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ </head>
+ <body <BODY BACKGROUND= "#C0C0C0" TOPMARGIN="10"  LEFTMARGIN="10" MARGINHEIGHT="10">
+ <h2 align="center">Список заданий для лабораторной работы №8</h2>
+<p><a href='1.php'>Задание 1</a>
+<br>
+<p> Получить список номеров и марок автомобилей, зарегистрированных в 
+ноябре и декабре прошлого года. 
+<br>
+<p><a href='2.php'>Задание 2</a>
+<br>
+<p>Найти  средний  возраст  по  каждой  из  встречающихся  марок 
+автомобилей. 
+<br>
+<p><a href='3.php'>Задание 3</a>
+<br>
+<p>Найти  "возраст"  с  точностью  до  года  каждого  из  автомобилей, 
+зарегистрированных в феврале и марте текущего года.
+<br>
+<p><a href='4.php'>Задание 4</a>
+<br>
+<p>Определить  коды  владельцев  автомобилей  указанной  марки, 
+зарегистрированных в указанном году. 
+<br>
+<p><a href='../index.php'>На главную</a>
+
+
+ </body> 
+</html>

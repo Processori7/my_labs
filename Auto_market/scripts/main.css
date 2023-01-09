@@ -1,0 +1,27 @@
+body{
+    background: #FFFFE0; /* Меняется фон экрана, выбирается здесь */
+}
+
+h1{
+	text-align: center;
+	color : #F58109;
+}
+
+h2{
+	color : #F58109;
+}
+
+p{
+	color : #F58109;
+}
+
+th{
+	color : #F58109;
+}
+
+a{
+	color: #F58109;
+}
+td{
+	color : #F58109;
+}
